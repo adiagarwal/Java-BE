@@ -17,7 +17,6 @@ import lombok.NoArgsConstructor;
 public class PostEntity {
     @Id
     private String _id;
-
     private String profile;
     private String desc;
     private int exp;

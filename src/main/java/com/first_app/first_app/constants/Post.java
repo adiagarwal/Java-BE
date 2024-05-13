@@ -1,7 +1,5 @@
 package com.first_app.first_app.constants;
-
-import org.springframework.data.annotation.Id;
-
+import org.bson.types.ObjectId;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,9 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Post{
-    @Id
-    private String _id;
-    
+    private ObjectId _id;
     private String profile;
     private String desc;
     private int exp;
